@@ -60,6 +60,11 @@ footer{
     background-color: black;
 }
 
+.footer-div {
+    padding-left:19px;
+    padding-top: 32px;
+}
+
 .footer-contact{
     color: white;
     font-family: Roboto;
@@ -71,16 +76,29 @@ footer{
     text-align: left;
 
 }
-
-
-
+.footer-contact p {
+    margin: 0px;
+} 
 .footer-links{
     color: #39D6C0;
 }
 
+.footer-links{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
 .footer-links a{
     display: block;
-    text-decoration: none;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+text-decoration-line: underline;
     color: #39D6C0;
+
+    margin-bottom: 8px;
 
 }
