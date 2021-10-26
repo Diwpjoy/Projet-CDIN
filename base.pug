@@ -2,11 +2,14 @@ doctype html
 html(lang="fr")
     head
         meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width,initial-scale=1")
         link(rel="stylesheet", href="css/style.css")
         link(rel='preconnect' href='https://fonts.googleapis.com')
         link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
         link(href='https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@500&family=Dosis:wght@500&display=swap' rel='stylesheet')
         <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
         title
             block title
 
@@ -30,10 +33,10 @@ html(lang="fr")
             block content
 
         footer 
-            div 
-                p Be Biker Services 143, avenue de Versailles 75016 Paris contact@bebiker.fr 01.23.45.67.89
+            div.footer-contact
+                Be Biker Services 143, avenue de Versailles75016 Pariscontact@bebiker.fr01.23.45.67.89
             
-            div 
-                p Accueil
-                p Qui sommes-nous ?
-                p Services
+            div.footer-links
+                a(href="index.pug") Accueil
+                a(href="nous.pug") Qui sommes-nous ?
+                a(href="services.pug") Services
