@@ -5,6 +5,9 @@ header{
     background-color: black;
     
 }
+body{
+    margin: 0;
+}
 
 .logo{
     padding: 2%;
@@ -22,7 +25,7 @@ header{
 }
 
 .menu nav{
-    display: flex;
+    display: block;
     margin-bottom: 0px;
     padding: 0%;
     background-color: royalblue;
