@@ -102,3 +102,36 @@ text-decoration-line: underline;
     margin-bottom: 8px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.text-h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight : 700;
+    
+
+  }
+
+.text{
+    text-align:left;
+    font-family: 'Roboto', sans-serif;
+    font-weight : 400;
+    margin-left:19px;
+}
+.description h2 {
+    text-align :left;
+    font-family: 'Roboto', sans-serif;
+    font-weight : 700;
+    margin-left:19px;
+    
+}
