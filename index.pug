@@ -1,10 +1,64 @@
 extends base.pug
 
-
 block title
   | Accueil
 
 block content
-  div(class="wrapper")
-    h1 Nous prenons soin de votre vélo
-    p
+  div.main-title
+    div.title
+      h1 Nous prenons soin de votre vélo
+    div.main-image
+      img(src="images/Rectangle 16.png", alt="il est en blanc")
+  
+  div.banner
+    div.banner-1
+      div.green
+        h1 Nous aimons le vélo
+        p Au-delà de l’objet, le vélo est pour nous une philosophie, un art de vivre. Vous pouvez nous faire confiance.
+        a(href="services.pug") En savoir plus
+      div.banner-image
+        img(src="images/Rectangle 17.png", alt="il est en blanc")
+    div.banner-2
+      div.green
+        h1 Un atelier professionnel
+        p C’est dans notre atelier que nous réparons les vélos de nos clients et que nous testons les nouveaux produits. Aucun détail ne nous échappe.
+        a(href="services.pug") En savoir plus
+      div.banner-image
+        img(src="images/Rectangle 14.png", alt="il est en blanc")
+
+  div.details
+    div.details-section
+      div.details-section-list
+        img(src="images/map-pin.svg", alt="")
+        div.ligne
+          img(src="images/Line 1.svg", alt="")
+        h3 Service à domicile
+        p Nous nous déplaçons pour récupérer et vous ramener votre vélo réparé chez vous, en nous adaptant à vos disponibilités.
+      div.details-section-list
+        img(src="images/user-check.svg", alt="")
+        div.ligne
+          img(src="images/Line 1.svg", alt="")
+        h3 Service client
+        p Un service client à votre écoute pour vous conseiller par téléphone et vous recevoir en atelier.
+      div.details-section-list
+        img(src="images/watch.svg", alt="")
+        div.ligne
+          img(src="images/Line 1.svg", alt="")
+        h3 Service express
+        p Vous avez besoin que votre vélo soit en état de rouler demain ? C’est possible.
+      div.details-section-list
+        img(src="images/tool.svg", alt="")
+        div.ligne
+          img(src="images/Line 1.svg", alt="")
+        h3 Autres services
+        p Réparations, conseils, équipements... Nous avons tout ce qu’il vous faut.
+      
+    div.details-button
+      a(href="") En savoir plus
+
+  div.photos
+    img(src="images/Rectangle 18.png", alt="")
+    img(src="images/Rectangle 19.png", alt="")
+    img(src="images/Rectangle 20.png", alt="")
+
+
