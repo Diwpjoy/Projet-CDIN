@@ -443,6 +443,8 @@ h2{
  font-size: 16px;
  line-height: 24px;
  display:inline;
+ text-align: justify;
+   
 
  
 }
@@ -453,6 +455,7 @@ h2{
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
+    text-align: justify;
 }
 .txt3 {
     text-align:left;
@@ -461,6 +464,7 @@ h2{
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
+    text-align: justify;
 }
 .txt4 {
     text-align:left;
@@ -469,6 +473,7 @@ h2{
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
+    text-align: justify;
 }
 .left-text3{
     padding-right: 0px;
