@@ -410,6 +410,10 @@ h2{
         margin-top: var(--color-primary) ;
     
 }
+    
+ 
+
+
 .title{
     text-align:left;
     font-family: Roboto;
@@ -418,9 +422,7 @@ h2{
     font-size: 16px;
     line-height: 24px;
    
-
 }
-
 
 .left-text {
     
@@ -440,6 +442,8 @@ h2{
  font-weight: normal;
  font-size: 16px;
  line-height: 24px;
+ display:inline;
+
  
 }
 .txt2 {
@@ -466,7 +470,9 @@ h2{
     font-size: 16px;
     line-height: 24px;
 }
-
+.left-text3{
+    padding-right: 0px;
+}
 
 .right-text{
     text-align: right;
@@ -486,49 +492,71 @@ h2{
 
 }
 
+@media (max-width: 768px) {
+    .image-bike{
+     display: none;
+     
+        }
+    .image-facep{
+        display :none;
+    }
+ 
 
 
+}
+.left-text1{
+    padding: 20px 40px 40px;
+    max-width: 422px;
+    margin: 20px 30px 0 0;
+    object-fit: contain;
+    align-self: flex-start;
+    flex: 1 1 auto;
+    }
+.left-center{
+    padding: 20px 40px 40px;
+    max-width: 422px;
+    margin: 20px 30px 0 0;
+    object-fit: contain;
+    align-self: flex-start;
 
+}
+.left-text2{
+    padding: 20px 40px 40px;
+    max-width: 422px;
+    margin: 20px 30px 0 0;
+    object-fit: contain;
+    align-self: flex-start;
 
+}
+.left-text3{
+    padding: 20px 40px 40px;
+    max-width: 422px;
+    margin: 20px 30px 0 0;
+    object-fit: contain;
+    align-self: flex-start;
 
+}
+  
+   
 
+html {
+    --color-primary: #F5F5F5;
+    --color-primary-contrast:#F5F5F5;
 
-
-
-
-
-
-
-
-.text-center {
-    text-align: center;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
+    
+  }
+  .wrapper {
+    padding: 40px 19px 40px 19px;
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
     
   }
 
-.left-text {
- text-align:left;
- font-family: Roboto;
- font-style: normal;
- font-weight: normal;
- font-size: 16px;
- line-height: 24px;
-
-}
-.right-text{
-    text-align: right;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-
+  .section-primary {
+    background-color: var(--color-primary);
+    color: var(--color-primary-contrast);
+  }
 
 
 
