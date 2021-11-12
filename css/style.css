@@ -317,15 +317,69 @@ header{
 
 
 
-
-
-.text-h1 {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight : 700;
+html {
+    --color-primary: #F5F5F5;;
+    --color-primary-contrast: #fff;
+    --color-button : #39D6C0;
     
-
   }
+  .wrapper {
+    padding: 40px 19px 40px 19px;
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .section-primary {
+    background-color: var(--color-primary);
+    color: var(--color-primary-contrast);
+  }
+
+  .button-primary{
+      background-color : var(--color-button);
+      color : var(--color-primary-contrast);
+  }
+
+  .section {
+    padding: 40px 0;
+  }
+
+  .section-title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+h1{
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight : 700; 
+    text-align: center;
+    
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight : 700; 
+    margin-left:19px;
+}
+
+.button {
+    display:block;
+    text-align: center;
+    padding : 20px 10px ;
+    border-radius: 8px;
+    border-style : solid;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    width: 335px;
+    height: 20px;
+    margin-left:19px;
+    margin-right:21px;
+    line-height:24px;
+    
+  }
+
+
 
 .text{
     text-align:left;
@@ -333,13 +387,8 @@ header{
     font-weight : 400;
     margin-left:19px;
 }
-.description h2 {
-    text-align :left;
-    font-family: 'Roboto', sans-serif;
-    font-weight : 700;
-    margin-left:19px;
-    
-}
+
+
 
 
 
