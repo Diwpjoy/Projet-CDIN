@@ -324,12 +324,8 @@ html {
     
   }
   .wrapper {
-    padding: 40px 19px 40px 19px;
-    max-width: 375px;
-    margin-left: auto;
-    margin-right: auto;
-    
-  }
+    padding: 40px;
+    background-color:var(--color-primary) ;
 
   .section-primary {
     background-color: var(--color-primary);
