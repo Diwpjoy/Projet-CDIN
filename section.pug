@@ -1,0 +1,12 @@
+mixin Section(theme)
+ 
+  div(class={
+    "section": true,
+    "section-primary": theme === "primary",
+  })
+    div(class="wrapper")
+      
+      
+mixin SectionTitle(tag)
+  #{tag}(class="section-title")
+    block
