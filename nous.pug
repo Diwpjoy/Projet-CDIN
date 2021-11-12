@@ -5,8 +5,8 @@ include button.pug
 
 
 block content
-    +Section("primary")
     
+    div(class = "wrapper")
         +SectionTitle("h1") Qui sommes-nous
     
     
@@ -46,7 +46,9 @@ block content
         p Notre atelier bénéficie des meilleurs équipements de répération de vélos, mais aussi de tests des performances des équipements. C’est en combinant cet équipement de pointe et notre expérience que nous sommes capables de vous apporter les meilleurs services.
 
 
+    
+    
+        +ButtonLink("services.pug", "primary") Nos services 
 
-    +ButtonLink("services.pug", "primary") Nos services 
-
-    img(src="image/Rectangle 10.png",alt="")
+    
+        img(src="image/Rectangle 10.png",alt="")
